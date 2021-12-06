@@ -1,24 +1,127 @@
+@font-face {
+    font-family: 'BPdotsUnicase';
+    src: url('./font/BPdotsUnicase-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'BPdotsUnicase';
+    text-align: center;
 }
 
 body {
     width: 100%;
-    height: 100vh;
-    background: #4e4e;
+    height: 757px;
+    background: #333;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
+
+.headline {
+    position: absolute;
+    font-size: 56px;
+}
+
+#headline {
+    top: 0px;
+    text-shadow: 0 0 1px dodgerblue;
+    font-size: 56px;
+}
+
+#headline1 {
+    top: 50px;
+    text-shadow: 0 0 2px dodgerblue;
+    font-size: 58px;
+}
+
+#headline2 {
+    top: 100px;
+    text-shadow: 0 0 3px dodgerblue;
+    font-size: 60px;
+}
+
+#headline3 {
+    top: 150px;
+    text-shadow: 0 0 4px dodgerblue;
+    font-size: 62px;
+}
+
+#headline4 {
+    top: 200px;
+    text-shadow: 0 0 5px dodgerblue;
+    font-size: 64px;
+}
+
+
+
+#headline5 {
+    bottom: 10px;
+    text-shadow: 0 0 1px dodgerblue;
+    font-size: 56px;
+}
+
+#headline6 {
+    bottom: 60px;
+    text-shadow: 0 0 2px dodgerblue;
+    font-size: 58px;
+}
+
+#headline7 {
+    bottom: 110px;
+    text-shadow: 0 0 3px dodgerblue;
+    font-size: 60px;
+}
+
+#headline8 {
+    bottom: 160px;
+    text-shadow: 0 0 4px dodgerblue;
+    font-size: 62px;
+}
+
+#headline9 {
+    bottom: 210px;
+    text-shadow: 0 0 5px dodgerblue;
+    font-size: 64px;
+}
+
 
 #container {
-    width: 500px;
-    height: 380px;
-    border: 5px solid #333;
+    width: 580px;
+    height: 150px;
+    border: 5px solid;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(54, 54, 54);
+    box-shadow: 0 0 25px #111;
+    border: 5px solid #222;
+    border-radius: 50px;
+    /* border-image: linear-gradient(45deg,#333, dodgerblue, #333, dodgerblue) 1; */
 }
 
+#output {
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    text-shadow: 0 0 5px dodgerblue;
+}
+/* 
+#timer {
+    position: absolute;
+    background: #444;
+    box-shadow: 0 0 3px #111;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 10px;
+    height: 20px;
+    right: 500px;
+}
+ */

@@ -29,7 +29,7 @@ window.addEventListener('load', function(){
             }else{
                 digit3 = hours;
             }
-        output.innerHTML = '<h1>' + digit3 + ' : ' + digit2 + ' : ' + digit1 + '</h1>';
+        output.innerHTML = '<h1>' + digit3 + ':' + digit2 + ':' + digit1 + '</h1>';
         }
     
 });
