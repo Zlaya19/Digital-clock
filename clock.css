@@ -10,13 +10,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'BPdotsUnicase';
+    text-transform: uppercase;
     text-align: center;
 }
 
 body {
     width: 100%;
     height: 757px;
-    background: #333;
+    background: #222;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,30 +33,45 @@ body {
     top: 0px;
     text-shadow: 0 0 1px dodgerblue;
     font-size: 56px;
+    box-shadow: 0 0 25px #111, inset 0 0 4px #111;
+    padding: 0 20px;
+    border-radius: 6px;
 }
 
 #headline1 {
     top: 50px;
     text-shadow: 0 0 2px dodgerblue;
     font-size: 58px;
+    box-shadow: 0 0 25px #111, inset 0 0 4px #111;
+    padding: 0 20px;
+    border-radius: 6px;
 }
 
 #headline2 {
     top: 100px;
     text-shadow: 0 0 3px dodgerblue;
     font-size: 60px;
+    box-shadow: 0 0 25px #111, inset 0 0 4px #111;
+    padding: 0 20px;
+    border-radius: 6px;
 }
 
 #headline3 {
     top: 150px;
     text-shadow: 0 0 4px dodgerblue;
     font-size: 62px;
+    box-shadow: 0 0 25px #111, inset 0 0 4px #111;
+    padding: 0 20px;
+    border-radius: 6px;
 }
 
 #headline4 {
     top: 200px;
     text-shadow: 0 0 5px dodgerblue;
     font-size: 64px;
+    box-shadow: 0 0 25px #111, inset 0 0 4px #111;
+    padding: 0 20px;
+    border-radius: 6px;
 }
 
 
@@ -64,30 +80,45 @@ body {
     bottom: 10px;
     text-shadow: 0 0 1px dodgerblue;
     font-size: 56px;
+    box-shadow: 0 0 25px #111, inset 0 0 4px #111;
+    padding: 0 20px;
+    border-radius: 6px;
 }
 
 #headline6 {
     bottom: 60px;
     text-shadow: 0 0 2px dodgerblue;
     font-size: 58px;
+    box-shadow: 0 0 25px #111, inset 0 0 4px #111;
+    padding: 0 20px;
+    border-radius: 6px;
 }
 
 #headline7 {
     bottom: 110px;
     text-shadow: 0 0 3px dodgerblue;
     font-size: 60px;
+    box-shadow: 0 0 25px #111, inset 0 0 4px #111;
+    padding: 0 20px;
+    border-radius: 6px;
 }
 
 #headline8 {
     bottom: 160px;
     text-shadow: 0 0 4px dodgerblue;
     font-size: 62px;
+    box-shadow: 0 0 25px #111, inset 0 0 4px #111;
+    padding: 0 20px;
+    border-radius: 6px;
 }
 
 #headline9 {
     bottom: 210px;
     text-shadow: 0 0 5px dodgerblue;
     font-size: 64px;
+    box-shadow: 0 0 25px #111, inset 0 0 4px #111;
+    padding: 0 20px;
+    border-radius: 6px;
 }
 
 
@@ -98,10 +129,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(54, 54, 54);
-    box-shadow: 0 0 25px #111;
-    border: 5px solid #222;
-    border-radius: 50px;
+    background: #222;
+    box-shadow: 0 0 25px #111, inset 0 0 4px #111;
+    border: 7px solid rgb(46, 46, 46);
+    border-radius: 20%;
+    margin-bottom: 12px;
     /* border-image: linear-gradient(45deg,#333, dodgerblue, #333, dodgerblue) 1; */
 }
 
@@ -111,15 +143,16 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 25px;
-    text-shadow: 0 0 5px dodgerblue;
+    color: dodgerblue;
+    text-shadow: 0 0 8px #111;
 }
 /* 
 #timer {
     position: absolute;
     background: #444;
     box-shadow: 0 0 3px #111;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
+    border-top-right-radius: 6x;
+    border-bottom-right-radius: 6x;
     width: 10px;
     height: 20px;
     right: 500px;
